@@ -5,7 +5,6 @@ body {
 	color: #434455;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	max-width: 1440px;
 }
 
 .visually-hidden {
@@ -157,6 +156,7 @@ nav li .link {
 
 .studio {
 	max-width: 1440px;
+	margin: 0 auto;
 	background-color: #2e2f42;
 	background-image: linear-gradient(
 			rgba(46, 47, 66, 0.7),
@@ -277,7 +277,7 @@ nav li .link {
 	justify-content: center;
 	align-items: center;
 	gap: 24px;
-	padding: 0 16px;
+	margin-top: 16px;
 }
 
 .team-icons-item {
